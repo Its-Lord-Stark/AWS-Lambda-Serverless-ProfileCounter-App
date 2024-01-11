@@ -1,40 +1,59 @@
-# Serverless Web Application on AWS
 
-## Project Name: Serverless Web Application on AWS
+Welcome to the Profile View Counter web app, a simple and efficient serverless solution powered by key AWS services. This application allows users to track the number of views on their profiles seamlessly. Let's dive into the details.
 
-### Project Description:
+## Table of Contents
 
-In this project, you will build a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table.
+- [Overview](#overview)
+- [Architecture](aArchitecture)
+- [Implement](#implement)
+- [Preview](#preview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
 
-### Project Architecture:
+## Overview
 
-![Serverless Web Application on AWS Architecture](https://user-images.githubusercontent.com/66474973/228492073-5cd3d975-3439-4ce4-b109-fb33997df3c3.png)
+The Profile View Counter web app is designed to provide users with a straightforward and serverless solution for tracking profile views. Leveraging the power of AWS services, the application ensures a responsive user experience and efficient data management.
 
-### Steps to Build the Project:
-
-* Create a DynamoDB table to store the items. \
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table. \
-* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript). \
-* Create a CloudFront distribution to serve the S3-hosted static files with low latency. \
-
-### Expected Outcome:
-
-Upon completing the project, you will have a working serverless web application hosted on AWS. \
-You will have hands-on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront. \
-Additionally, you will have experience working with AWS services and integrating them to build a complete solution.
-
-This project will help you improve your skills in cloud computing, serverless architecture, and AWS services.
-
-Link to the documentation: https://docs.google.com/document/d/1FKIs7_yF0D98dHC1D-_pE494EiNF5xhP3s7YCRzw3B8/edit?usp=sharing. 
+## Architecture
+![ServerLess Web Appln(3) (1)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/e9e4e567-e152-4d10-b371-5f74f7c5971e)
 
 
+## Implement
+![Screenshot (653)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/27766876-0250-426d-bc99-6b1b7882e4a5)
+![Screenshot (654)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/6d18ceb9-8c40-4cdf-a776-23cb5b4a70c3)
 
-Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
-Follow our blog here: https://amonkincloud.com/ \
-Follow my personal blog here:https://dev.to/yeshwanthlm/ \
-Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
-For queries write to us at: amonkincloud@gmail.com 
+![Screenshot (656)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/9aeee3ce-4e15-4339-82fb-b45b636cd476)
+
+![Screenshot (657)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/28f528fa-ec72-45df-a2f2-706482421dee)
 
 
+## Preview
+![Screenshot (652)](https://github.com/Its-Lord-Stark/AWS-Lambda-Serverless-ProfileCounter-App/assets/126385754/4a6e2a91-2a86-48bd-a642-ed618e1cc841)
 
+## Features
 
+- **Real-time View Count**: Keep track of the number of views on your profile in real-time.
+- **Serverless Architecture**: Utilizes AWS Lambda, S3, CloudFront, DynamoDB, and Route 53 for seamless and cost-effective operation.
+- **Scalable Storage**: Secure and scalable object storage powered by Amazon S3.
+- **Global Content Delivery**: Amazon CloudFront optimizes content delivery globally, minimizing latency for users worldwide.
+- **Efficient Data Management**: DynamoDB efficiently manages view count data with its NoSQL database capabilities.
+- **Custom Domain Support**: Hosted on your own domain using Amazon Route 53 for a personalized and secure user experience.
+
+## Tech Stack
+
+The application is built on a robust technology stack, harnessing the capabilities of various AWS services:
+
+- **AWS Lambda**: Orchestrates seamless code execution.
+- **Amazon S3**: Provides secure and scalable object storage.
+- **Amazon CloudFront**: Optimizes global content delivery.
+- **Amazon DynamoDB**: Efficient NoSQL database operations for view count.
+- **Amazon Route 53**: Fortifies the domain for security.
+
+## Setup Instructions
+
+To set up the Profile View Counter web app, follow these steps:
+
+1. Clone the repository.
+2. Configure AWS credentials.
+3. Deploy the serverless functions and resources using AWS CloudFormation.
